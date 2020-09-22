@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=EB+Garamond&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/91a1e3d2b8.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+
+<body>
+    <!--login-->
+    <div class="visibility1 card ml-auto mr-auto" style="width: 25rem;">
+
+        <div class="card-body">
+            <span class="card-title text1 text3 mx-auto"><i class="fa fa-window-maximize"
+                    aria-hidden="true"></i>&nbsp;EVENT
+                LOGIN </span>
+            <p class="card-text text1">
+                <form
+                    action="https://script.google.com/macros/s/AKfycbwOA7EnqHdqWQFq9QVFi2K5WH3dhDWbpprQH55oRqmUeR7ZRnL5/exec"
+                    method="post">
+                    <span class="text1 s1">Name</span>
+                    <input type="text" name="password1" required>
+
+
+                    <span class="text1 s1">Email</span>
+                    <input type="email" name="email1" required>
+                    <span class="text1 s1">Subject</span>
+                    <input type="text" name="subject1" required>
+
+                    <span class="text1 s1">Message</span>
+                    <textarea name="message" required></textarea>
+
+
+                    <div class="btn btn btn-danger text1 mt-2 s1" onclick="visibility1()">Send</div>
+
+                </form>
+
+
+        </div>
+    </div>
+    <!--Sign up-->
+    <div class="visibility card card1 ml-auto mr-auto" style="text-align:center; height:3rem;width: 25rem;">Message
+        Sent!!!</div>
+
+
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
